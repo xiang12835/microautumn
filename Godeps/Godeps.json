@@ -1,5 +1,5 @@
 {
-	"ImportPath": "Gin_API_Framework",
+	"ImportPath": "microautumn",
 	"GoVersion": "go1.13",
 	"GodepVersion": "v80",
 	"Deps": [

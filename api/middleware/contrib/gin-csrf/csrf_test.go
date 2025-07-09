@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"Gin_API_Framework/api/middleware/contrib/sessions"
 	"github.com/gin-gonic/gin"
+	"microautumn/api/middleware/contrib/sessions"
 )
 
 func init() {

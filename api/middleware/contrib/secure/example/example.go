@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"Gin_API_Framework/api/middleware/contrib/secure"
 	"github.com/gin-gonic/gin"
+	"microautumn/api/middleware/contrib/secure"
 	"time"
 )
 

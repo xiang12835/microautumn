@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"Gin_API_Framework/api/middleware/contrib/ginrus"
 	"github.com/gin-gonic/gin"
+	"microautumn/api/middleware/contrib/ginrus"
 )
 
 func main() {

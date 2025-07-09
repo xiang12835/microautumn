@@ -30,21 +30,22 @@
 - $GOPATH 设置 
 ```go
 示例
-export GOPATH="/Users/ed/gocode"
+export GOROOT=/Users/yx/apps/go1.13.6
+export GOPATH=/Users/yx/GolandProjects
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```
 
-- git clone https://github.com/edisonlz/Gin_API_Framework.git
+- git clone https://github.com/xiang12835/microautumn.git
 ```
 代码需要clone到 $GOPATH/src 下
 ```
-- cd Gin_API_Framework/ && godep restore
+- cd microautumn/ && godep restore
 
 ```bash
 godep restore 可能会失败
 可以将vendor下代码复制到 $GOPATH/src 下
 ed@localhost src$ ls
-Gin_API_Framework back              github.com        golang.org        gopkg.in
+microautumn back              github.com        golang.org        gopkg.in
 ```
 
 
@@ -194,12 +195,12 @@ go http://127.0.0.1:8080/debug/pprof/
 
 
 ### go Async Queue Message by Redis
-目录: Gin_API_Framework/background
+目录: microautumn/background
 ``` go
 package main
 
 import ( 
-        "Gin_API_Framework/utils/redis_model"
+        "microautumn/utils/redis_model"
         _"encoding/json"
         "log"
 )
@@ -237,7 +238,7 @@ func main(){
 
 ```
 
-###Profile
+### Profile
 ```
 API goroutine monitor profile
 https://github.com/DeanThompson/ginpprof
