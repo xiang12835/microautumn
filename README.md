@@ -1,8 +1,8 @@
-# 欢迎使用GO Gin API Framework
+# 欢迎使用 MicroAutumn
 
 @(示例笔记本)[马克飞象|帮助|Markdown]
 
-**GIN API Framework**是一款专为Go Gin 框架打造的API Framework，通过精心的设计与技术实现，集成了大部分稳定开发组件，memcache consistance Hash，redis，nsq，api doc ，mysql 等。特点概述：
+**MicroAutumn**是一款专为Go Gin 框架打造的API Framework，通过精心的设计与技术实现，集成了大部分稳定开发组件，memcache consistance Hash，redis，nsq，api doc ，mysql 等。特点概述：
 
 
 如果您考虑采用**微服务框架** 请参见 [Micro_API_Framework](https://github.com/edisonlz/Micro_API_Framework)
@@ -13,7 +13,7 @@
  
 - **功能丰富** ：支持大部分服务器组件，支持API Doc；
 - **得心应手** ：简单的实例，非常容易上手；
-- **深度整合** ：深度整合memcache，redis，mysql，beego ，gin 框架。
+- **深度整合** ：深度整合memcache，redis，mysql，beego，gin 框架。
 - **API安全** : 在nginx层使用lua插件，对api签名并校验。
 - **性能优先** ：为啥不直接使用beego那，因为gin是目前httprouter性能最高，占用资源最少的框架，而beego orm是目前最接近django的框架，so...。
 
